@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- 配置 ---
-LOG_DIR="/home/oracle/backupcmd" # 日志文件所在的目录，默认为当前目录。如果您日志在其他目录，请修改这里。
+LOG_DIR="/home/oracle/backupcmd/migratelog" # 日志文件所在的目录，默认为当前目录。如果您日志在其他目录，请修改这里。
 LOG_PATTERN="eportdb_all_data_recovery_*.log" # 日志文件的命名模式
 
 # --- 脚本逻辑 ---

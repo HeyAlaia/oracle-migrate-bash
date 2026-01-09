@@ -16,7 +16,7 @@ DBID="3080101081"
 CATALOG_BACKUP_PIECE="/backup_2024/EPORTDB/"
 CONTROLFILE_BACKUP_PIECE="${CATALOG_BACKUP_PIECE}EPORTDB_6o4ba9k1_1_1"
 NEW_DATAFILE_BASE_PATH="/u01/app/oracle/oradata/eportdb"
-RMAN_LOG_DIR="/home/oracle/backupcmd"
+RMAN_LOG_DIR="/home/oracle/backupcmd/migratelog"
 RMAN_LOG_FILE="${RMAN_LOG_DIR}/eportdb_all_data_recovery_$(date +%Y%m%d_%H%M%S).log" # 每次生成新日志文件
 
 mkdir -p "$RMAN_LOG_DIR"
